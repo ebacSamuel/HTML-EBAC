@@ -1,27 +1,173 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-</head>
-<body>
-    <h1>Formulario de cadastro</h1>
-    <form>
-        <label for="name">Nome</label>
-        <input required="true" type="text" id="name"/>
-        <br/>
-        <label for="email">E-mail</label>
-        <input required="true" type="email" id="email"/>
-        <br/>
-        <label for="password">Senha</label>
-        <input required="true" type="password" id="password"/>
-        <br/>
-        <button type="submit">
-            Cadastrar
-        </button>
-        
-    </form>
-</body>
-</html>
-<form
+                <!DOCTYPE html>
+                <html lang="pt-BR">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Meu portal de notícias</title>
+                    <link rel="stylesheet" href="./style.css" />
+                </head>
+                <body>
+                    <header>
+                        <h1>Meu portal de notícias</h1>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                                </li>
+                                <li>
+                                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                                </li>
+                                <li>
+                                    <a href="#tecnologia" tittle="Ir para seção de tecnologias">Tecnologia</a>
+                                </li>
+                                <li>
+                                    <a href="#entreterimento" tittle="Ir para seção de entreterimento">Entreterimento</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section id="sports">
+                    <div class="container">
+                        <h2>Esportes</h2>
+                        <div class="articles">
+                            <article>
+                                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Grande clássico na noite de hoje</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Noite do Superbowl</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Notícia sobre a NBA</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Notícia sobre a NBA</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                        </div>
+                    </div>
+                    </section>
+                    <section id="economy">
+                    <div class="container">
+                        <h2>Economia</h2>
+                    <div class="articles">
+                        <article>
+                            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                            <header>
+                                <time>13/07/2022 às 12:35</time>
+                            </header>
+                            <h3>Dólar em alta de 0.50%</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                            </p>
+                            <a href="#" title="Leia a notícia completa">Ler mais</a>
+                        </article>
+                        <article>
+                            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                            <header>
+                                <time>13/07/2022 às 12:35</time>
+                            </header>
+                            <h3>Euro em queda de 0.40%</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                            </p>
+                            <a href="#" title="Leia a notícia completa">Ler mais</a>
+                        </article>
+                        <article>
+                            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                            <header>
+                                <time>13/07/2022 às 12:35</time>
+                            </header>
+                            <h3>Alta no preço do barril do petróleo</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                            </p>
+                            <a href="#" title="Leia a notícia completa">Ler mais</a>
+                        </article>
+                    </div>
+                    </div>
+                    </section>
+                    <section id="tecnologia">
+                        <div class="container">
+                            <h2>Tecnologias</h2>
+                            <div class="articles">
+                                <article>
+                                    <img src="https://asmetro.org.br/portalsn/wp-content/uploads/2023/02/81-1.jpg" rel="Imagem de uma IA"></a>
+                                    <header>
+                                        <time>13/07/2022 às 12:35</time>
+                                    </header>
+                                    <h3>Ia generativa</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt necessitatibus error! Veniam atque doloremque quo quasi molestiae libero hic possimus sint delectus similique, rem modi saepe cum quae animi?</p>
+                                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                                </article>
+                                <article>
+                                    <img src="https://sesconcampinas.org.br/wp-content/uploads/2019/08/artificial-intelligence-3382507_640.jpg"rel="Banco de dados"/>
+                                    <header>
+                                        <time>13/07/2022 às 12:35</time>
+                                    </header>
+                                    <h3>Banco de dados</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vitae ad explicabo, magni exercitationem unde culpa quibusdam tenetur sunt, ut quod necessitatibus consequuntur, accusantium quis pariatur inventore voluptatem debitis at?</p>
+                                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="entreterimento">
+                        <div class="container">
+                            <h2>Entreterimento</h2>
+                            <div class="articles">
+                            <article>
+                                <img src="https://revistasegura.com.br/wp-content/uploads/2022/04/i477341.jpeg"/>
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Sistemas de streaming</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi accusamus culpa quasi unde iusto sed nulla repudiandae, soluta eveniet quo distinctio, odio veritatis dolore in necessitatibus sequi explicabo at!</p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFk3QTMiSn780S1Hy3tGKWQerG4VxKbnDhQ&s"/>
+                                <header></header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Desenhos animados</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sit natus corporis blanditiis saepe quisquam totam tempora vel ad expedita vero necessitatibus dolor aperiam, quod omnis ullam ipsum ducimus distinctio.</p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            </article> 
+                            </div>
+                        </div>
+                    </section>
+                </body>
+                </html>
